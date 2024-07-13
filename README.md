@@ -16,6 +16,7 @@ Used a dataset to insert datas in Books table that dataset is also uploaded with
 # Sql Queries
 main Sql Queries uploaded with this as library-management-system.sql
 
+
 # Triggers used in this mangement system
 * before_issue_book_to_customer(created trriger before inserting the data into issuestatus to not select avoid entering book not available by checking the books table)
 * after_issue_book_to_customer(created trigger  after insertion for changing update the book status form the book table as not available after that book is issuesed to customer)
@@ -37,6 +38,9 @@ main Sql Queries uploaded with this as library-management-system.sql
 10. Retrieve the branch numbers along with the count of employees for branches having more than 5 employees
 11. Retrieve the names of employees who manage branches and their respective branch addresses.
 12. Display the names of customers who have issued books with a rental price higher than Rs. 25.
+
+# Screenshots
+uploaded the screenshots of data that retrive while this sql codes were runned
 
 # Use of this
 from this we can easily get the information of library and the books that are available now and the books taken by the customers from the library returned books.
