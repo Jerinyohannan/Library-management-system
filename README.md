@@ -1,7 +1,7 @@
 # library-management-system
 using MySql
 we are going to build a project based on Library Management System. It keeps track of all information about books in the library, their cost, status and total number of books available in the library.
-# Dataset and Tables Used.
+# Tables Used.
 Created a database named library and following TABLES in the database: 
 
 1. Branch 
@@ -11,7 +11,10 @@ Created a database named library and following TABLES in the database:
 5. IssueStatus
 6. ReturnStatus
 
+# Dataset used
 Used a dataset to insert datas in Books table that dataset is also uploaded with this as Books new.CSV
+# Sql Queries
+main Sql Queries uploaded with this as library-management-system.sql
 
 # Triggers used in this mangement system
 * before_issue_book_to_customer(created trriger before inserting the data into issuestatus to not select avoid entering book not available by checking the books table)
@@ -35,6 +38,9 @@ Used a dataset to insert datas in Books table that dataset is also uploaded with
 11. Retrieve the names of employees who manage branches and their respective branch addresses.
 12. Display the names of customers who have issued books with a rental price higher than Rs. 25.
 
-# 
+# Use of this
+from this we can easily get the information of library and the books that are available now and the books taken by the customers from the library returned books.
+it will automatically changes the status of books available in the libray when the customer took that book and when the customer return the books.
+
 
 
