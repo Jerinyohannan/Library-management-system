@@ -44,7 +44,7 @@ CREATE TABLE Books (
     Author VARCHAR(250),
     Publisher VARCHAR(205)
 );
--- imported csv fill using table data import 
+-- imported Books_new.csv fill using table data import 
 select * from books;
 update books set Rental_Price=30 where ISBN=2005018;
 -- Customer
